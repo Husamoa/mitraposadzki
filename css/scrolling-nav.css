@@ -36,6 +36,10 @@ h2 {
   letter-spacing: 3px;
 }
 
+#par-3{
+  font-size: 30px
+}
+
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
