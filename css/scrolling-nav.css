@@ -32,6 +32,10 @@ h1 {
   opacity: 1;
 }
 
+h2 {
+  letter-spacing: 3px;
+}
+
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
@@ -61,6 +65,9 @@ li {
   background-attachment: fixed;
   opacity: .5;
   height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .between2 {
@@ -70,6 +77,9 @@ li {
   background-attachment: fixed;
   opacity: .5;
   height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .between3 {
@@ -79,4 +89,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
