@@ -27,3 +27,21 @@
   });
 
 })(jQuery); // End of use strict
+
+var phoneNumber = document.querySelector(".fixed-bottom span")
+var phoneIcon = document.querySelector(".fixed-bottom img");
+console.log(phoneNumber);
+console.log(phoneIcon);
+
+function clickPhoneAdd(event) {
+  phoneNumber.classList.remove('hover');
+  console.log(phoneNumber);
+}
+
+function clickPhoneRemove(event) {
+  phoneNumber.classList.add('hover');
+  console.log(phoneNumber);
+}
+
+phoneIcon.addEventListener('mouseover', clickPhoneAdd);
+phoneIcon.addEventListener('mouseout', clickPhoneRemove);
