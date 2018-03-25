@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  height: 920px;
+  height: 520px;
   padding: 154px 0 100px;
   background-image: url('../images/building-pixabay.jpg');
   background-attachment: fixed;
@@ -17,7 +17,7 @@ header {
 
 header:before{
   position: absolute;
-  height: 920px;
+  height: 520px;
   content: "";
   background: rgba(200,200,200,0.5);
   top: 0;
@@ -66,8 +66,13 @@ section {
   font-size: 20px;
   background-color:#28D231;
   position: relative;
-  bottom: 40px;
+  bottom: 70px;
   left: 10px;
+}
+
+.fixed-bottom span a {
+  color: white;
+
 }
 
 .hover {
@@ -79,6 +84,10 @@ section {
   margin: 10px 20px 20px 10px;
   cursor: pointer;
 }
+
+/* .phoneCall {
+  width: 110px;
+} */
 
 li {
   padding: 10px;

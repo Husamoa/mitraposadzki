@@ -42,6 +42,3 @@ function clickPhoneRemove(event) {
   phoneNumber.classList.add('hover');
   console.log(phoneNumber);
 }
-
-phoneIcon.addEventListener('mouseover', clickPhoneAdd);
-phoneIcon.addEventListener('mouseout', clickPhoneRemove);
