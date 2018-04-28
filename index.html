@@ -31,8 +31,8 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
-
+  <!-- <link href="css/scrolling-nav.css" rel="stylesheet"> -->
+  <link href="css/modern-business.css" rel="stylesheet">
   <!-- JavaScript for cookies -->
   <script type="text/javascript" src="js/whcookies.js"></script>
 
@@ -41,148 +41,141 @@
 <body id="page-top">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="images/mitra-biale-przezro.png" height="70" alt="logo mitra">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">O nas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Produkty</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#plus">Zalety</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="contact.html">Kontakt</a>
-          </li>
-        </ul>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="images/mitra-biale-przezro.png" height="70" alt="mitra posadzki">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger active" href="index.html">Strona główna</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="o-firmie.html">O firmie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="posadzki-anhydrytowe.html">Posadzki anhydrytowe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="doradzctwo-techniczne.html">Doradztwo techniczne</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="oferta.html">Oferta</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="galeria.html">Galeria</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   <!-- Button z numerem telefonu -->
-  <div class="fixed-bottom phoneCall">
+  <!-- <div class="fixed-bottom phoneCall">
     <img onmouseover="clickPhoneAdd()" onmouseout="clickPhoneRemove()" onclick="window.open('tel:+48-666-610-404');" src="images/phone-icon-green.png"
       height="70" alt="phone us">
     <span class="p-3 mb-2 text-white hover">
       <a href="tel:+48-666-610-404" class="insideLink">Zadzwoń:
         <br>666 610 404</a>
     </span>
-  </div>
+  </div> -->
 
-  <!-- Header -->
   <header>
-    <div onclick="" class="container text-center">
-      <div class="col-lg-8 mx-auto">
-        <h1 class="h3" style="color:white">Świadczymy wysokiej klasy usługi wykonywania podkładów podłogowych dla developerów, instytucji publicznych oraz klientów
-          indywidualnych</h1>
-        <a class="btn btn-success btn-xl js-scroll-trigger" href="#plus">Dowiedz się więcej</a>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('images/posadzka-anhydrytowa-mosina.jpg')">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h3>First Slide</h3>
+            <p>This is a description for the first slide.</p>
+          </div> -->
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/posadzka-anhydrytowa-swarzedz.jpg')">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h3>Second Slide</h3>
+            <p>This is a description for the second slide.</p>
+          </div> -->
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/posadzka-anhydrytowa-luboń.jpg')">
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+          </div>
+        </div> -->
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </header>
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>O nas</h2>
-          <hr class="my-4">
-          <p>MITRA Posadzki to
-            <strong>rzetelny wykonawca</strong>.
-            <hr class="my-4"> Aby sprostać wysokim wymaganiom naszych klientów, zatrudniamy wykształconą kadrę techniczną i&nbsp;wykonawczą.
-            Postawiliśmy na najwyższą jakość, dlatego naszym flagowym produktem jest wylewka anhydrytowa Agilia Sols A firmy
-            Lafarge.
-          </p>
-          <ul>
-            <li>Świadczymy wysokiej jakości usługi wykonywania podkładów podłogowych dla developerów, instytucji publicznych
-              oraz klientów indywidualnych.</li>
-            <li>Działamy od 2013 roku na Poznańskim rynku budowlanym.</li>
-            <li>Wylewki anhydrytowe Agilia Sols A firmy Lafarge są naszym flagowym produktem.</li>
-            <!-- <li>Nasza firma jest autoryzowanym wykonawcą wylewek podłogowych Agilia Sols A firmy Lafarge.</li> -->
-            <hr class="my-4">
-            <h4>Jesteśmy pasjonatami budownictwa, naszą wiedzą i&nbsp;doświadczeniem chętnie dzielimy się z Naszymi klientami.
-              Wybierz dobrze! Wykonaj posadzkę anhydrytową z nami 👍</h4>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="between img-fluid">
-
-  </section>
+  <h2 class="text-center"><strong>Posadzki anhydrytowe w Poznaniu<br> oraz na terenie powiatu poznańskiego</strong></h2>
+  
   <section id="services" class="bg-light">
-    <div class="container">
+    <div class="container uslugi">
+      <!-- Portfolio Section -->
+      <h2>Nasze usługi</h2>
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Podkład podłogowy anhydrytowy Agilia Sols A</h2>
-          <hr class="my-4">
-          <p>Innowacyjny technologicznie produkt przeznaczony do zastosowania na podkłady podłogowe we wszelkiego rodzaju budownictwie,
-            idealny na ogrzewanie podłogowe.</p>
-          <h3>Cechy charakterystyczne rozwiązania:</h3>
-          <ul>
-            <li>Szybciej i efektywniej przewodzi ciepło, co pozwala zaoszczędzić na kosztach ogrzewania i podnosi komfort użytkowania
-              systemów z ogrzewaniem podłogowym.</li>
-            <li>Zmniejsza grubość wylewki - już od 3 cm nad przewodami instalacji grzewczej.</li>
-            <li>Wysoka wytrzymałość - od 20 MPa. W porównaniu do jastrychów cementowych znacznie wyższy stosunek wytrzymałości
-              na zginanie do wytrzymałości na ściskanie sprawia, że produkt nie wymaga zbrojenia.</li>
-            <li>Bezskurczowe wiązanie i wysoka elastyczność eliminują problem spękań wylewki. Agilia Sols A umożliwia elastyczne
-              wykonanie dużych pól dylatacyjnych - nawet do 300 m² w przypadku podkładów z ogrzewaniem podłogowym i do 900
-              m² w przypadku podkładów nieogrzewanych.</li>
-            <li>Właściwości samopoziomujące skracają pracę wykonawcze i gwarantują łatwe rozwiązanie i wypoziomowanie się mieszanki.</li>
-            <li>Wydajność układania - 3 - osobowa ekipa wykonawcza może osiągnąć wydajność przekraczającą wylanie 1000 m² powierzchni
-              dziennie.
-            </li>
-            <li>Przyspieszenie prac wykonawczych - istnieje możliwość chodzenia po podkładzie po ok 48 h i rozpoczęcia dalszych
-              prac budowlanych po 4 dniach. Już po 7 dniach można włączyć ogrzewanie podłogowe.</li>
-            <li>Uniwersalne rozwiązanie dla inwestycji o rożnej wielkości - stosowana technologia wylewania pozwala wykonać podkłady
-              podłogowe o powierzchni od kilkudziesięciu do kilku tysięcy m².</li>
-          </ul>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/doradztwo-techniczne.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+              </h4>
+              <p class="h5 text-center"><strong>Doradztwo techniczne dla inwestorów i projektantów</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/pomiary.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+              </h4>
+              <p class="h5 text-center"><strong>Pomiary wysokości na budowie</strong> - doradzamy instalatorom jak przygotować podkład pod wylewkę.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/wykonanie.JPG" style="height: 200px;" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+              </h4>
+              <p class="h5 text-center"><strong>Wykonanie posadzki anhydrytowej</strong></p>
+            </div>
+          </div>
+        </div>
+        
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="between2 img-fluid">
+      <!-- /.row -->
 
+    </div>
   </section>
   <section id="plus" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 id="par-3">Zalety posadzki anhydrytowej Agilia Sols A:</h3>
-            <hr class="my-4">
-            <ul>
-              <li>Ciepło - dzięki dokładnemu otoczeniu instalacji szybciej i efektywniej przewodzi ciepło a co za tym idzie wylewka
-                anhydrytowa zapewnia bardzo szybkie nagrzanie pomieszczeń.
-              </li>
-              <li>Oszczędność - dzięki szybszemu i efektywnemu przewodzeniu ciepła przez wylewkę zmniejsza się zużycie energii
-                elektrycznej, co pozwala znacznie zaoszczędzić na ogrzewaniu.
-              </li>
-              <li>Trwałość - wysoka wytrzymałość - od 20 MPa. W porównaniu do jastrychów cementowych znacznie wyższy stosunek
-                wytrzymałości na zginanie do wytrzymałości na ściskanie sprawia, że produkt nie wymaga zbrojenia.
-              </li>
-              <li>Uniwersalność - wylewka anhydrytowa nadaję się do stosowania zarówno przy małych, prywatnych inwestycjach jak
-                i przy dużych, komercyjnych realizacjach.
-              </li>
-              <li>Szybkość wykonania - pozwala przyśpieszyć prace wykonawcze oraz umożliwia chodzenia po podkładzie po ok. 48h
-                od wylania.
-              </li>
-              <li>Wygoda - wykorzystując właściwości samopoziomujące wylewki oraz jej płynną konsystencje można uzyskać idealnie
-                równą powierzchnie.
-              </li>
-              <li>Jakość - powstawanie wylewki anhydrytowej jest regularnie kontrolowane. O jakości produktu zaświadcza Lafarge
-                - światowy lider w produkcji materiałów budowlanych.
-              </li>
-              <li>Ekologia - dobre przewodnictwo cieplne wylewki anhydrytowej pozwala zmniejszyć zużycie energii, przez co chroni
-                się środowisko naturalne.</li>
-            </ul>
             <h3 class="h3">Zobacz dlaczego warto wykonać posadzkę anhydrytową</h3>
             <hr class="my-4">
             <div class="embed-responsive embed-responsive-21by9">
@@ -193,17 +186,13 @@
       </div>
     </div>
   </section>
-  <section class="between3 img-fluid">
-
-  </section>
-
+  
   <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <h2>Kontakt</h2>
           <hr class="my-4">
-          <!-- <p class="mb-5">MITRA Posadzki</p> -->
           <img src="images/mitra-male.png" height="150" alt="logo mitra">
           <p>Os. Bolesława Chrobrego 20/86</p>
           <p>60-681 Poznań</p>
@@ -214,6 +203,7 @@
         <div class="col-lg-4 ml-auto text-center">
           <img src="images/phone.png" width="100" height="100" alt="call to mitra">
           <p> 666-610-404</p>
+          <p> 504-946-580</p>          
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <img src="images/mail.png" width="100" height="100" alt="send mail to mitra">
@@ -241,7 +231,7 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
+  <script src="js/jqBootstrapValidation.js"></script>  
 
 </body>
 
