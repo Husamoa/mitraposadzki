@@ -30,11 +30,12 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
-
   <!-- JavaScript for cookies -->
   <script type="text/javascript" src="js/whcookies.js"></script>
+
+  <!-- Moj plik CSS -->
+  <link href="css/doradztwo-tecniczne.css" rel="stylesheet">
+  
 
 </head>
 
@@ -78,14 +79,14 @@
     </div>
   </nav>
   <!-- Button z numerem telefonu -->
-  <div class="fixed-bottom phoneCall">
+  <!-- <div class="fixed-bottom phoneCall">
     <img onmouseover="clickPhoneAdd()" onmouseout="clickPhoneRemove()" onclick="window.open('tel:+48-666-610-404');" src="images/phone-icon-green.png"
       height="70" alt="phone us">
     <span class="p-3 mb-2 text-white hover">
       <a href="tel:+48-666-610-404" class="insideLink">Zadzwoń:
         <br>666 610 404</a>
     </span>
-  </div>
+  </div> -->
 
   <!-- Header -->
   <!-- <header class="header-doradztwo">
@@ -102,33 +103,38 @@
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">Doradztwo techniczne</h1>
 
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item">
-        <a href="index.html">Strona główna</a>
-      </li>
-      <li class="breadcrumb-item active">Doradztwo techniczne</li>
-    </ol>
-
     <!-- Blog Post -->
     <div class="card mb-4">
       <div class="card-body">
         <div class="row">
           <div class="col-lg-6">
             <a href="#">
-              <img class="img-fluid rounded" src="http://placehold.it/750x300" alt="">
+              <img class="img-fluid rounded" src="images/bledy.png" alt="">
             </a>
           </div>
           <div class="col-lg-6">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta,
-              a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Czytaj więcej &rarr;</a>
+            <h2 class="card-title">Najczęstsze błędy</h2>
+            <p class="card-text"><strong>Rzeczywista grubość posadzki.</strong>
+              Uwaga! na samym początku przed przystąpieniem do wykonania posadzki należy upewnić się jaką grubość posadzki możemy wykonać. Grubości nie zakładamy z projektu budowlanego ponieważ bardzo często projekt różni się od rzeczywistości na budowie.</p>
+              <div class="collapse" id="bledy">
+              <p><strong>Układanie warstwy izolacyjnej ze styropianu.</strong>
+              Styropian pod posadzki anhydrytowe powinien być minimum klasy EPS 100. Jest to wartość mówiąca o twardości styropianu, jeśli styropian będzie miękki posadzka może popękać. Należy uważać ponieważ czasem styropian posiada oznaczenie EPS 100 ale nie jest przeznaczony na podkład pod posadzkę.</p>
+              <p><strong>Równa powierzchnia</strong>
+              Styropian powinien zostać ułożony w taki sposób aby powierzchnia pod posadzkę była równa. Każda kolejna warstwa styropianu powinna być układana na zakładkę a nie bezpośrednio jedna płyta na drugą.</p>
+              
+              <p><strong>Przygotowanie instalacji ogrzewania podłogowego</strong>
+              
+              Należy dokładnie przymocować wszystkie elementy systemu grzewczego, które umieszczone zostaną w warstwie jastrychu anhydrytowego. Sposób umocowania powinien uniemożliwić wypłynięcie elementów ogrzewania na wierzch i tym samym zapewnić odpowiednią otulinę przewodów. Mocowanie należy wykonać za pomocą klipsów systemowych w odstępach nie większych jak 1 m.</p>
+              
+              <p><strong>Przed przymocowaniem rur</strong>, jeszcze przed zalaniem instalacji jastrychem, konieczne jest przeprowadzenie próby szczelności instalacji. W tym celu należy wypełnić rury wodą i utrzymać wymagane przepisami ciśnienie przez 24 h. Dopiero gdy jest pewność, że układ jest szczelny, możemy przystąpić do wykonania jastrychu.
+              </p>
+            </div>
+            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#bledy">Czytaj więcej</button>
           </div>
         </div>
       </div>
       <div class="card-footer text-muted">
-        Posted on January 1, 2017 by
-        <a href="#">Bartosz Kaczmarek</a>
+        Dodano 1. stycznia, 2018
       </div>
     </div>
 
