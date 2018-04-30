@@ -1,10 +1,9 @@
-body {
-    padding-top: 100px;
-    font-family: 'Oxygen', sans-serif;
-  }
-  
+#kontakt {
+  padding-top: 100px;
+}
+
   @media (min-width: 992px) {
-    body {
+    #kontakt {
       padding-top: 100px;
     }
   }
@@ -22,3 +21,10 @@ body {
   .portfolio-item {
     margin-bottom: 30px;
   }
+
+  @media (max-width: 600px) {
+    h1, h2, h3, h4 {
+      text-align: center;
+    }
+  }
+
