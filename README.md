@@ -1,4 +1,4 @@
-# mitraposadzki
+# Mitra - posadzki anhydrytowe
 > This is page for my friend who starting up business
 
 
