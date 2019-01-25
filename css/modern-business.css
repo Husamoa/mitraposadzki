@@ -62,3 +62,13 @@ body {
     text-align: center;
   }
 }
+
+.logo-fb {
+  height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-fb {
+    height: 40px;
+  }
+}
