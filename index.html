@@ -29,6 +29,8 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
@@ -36,6 +38,7 @@
 
   <!-- JavaScript for cookies -->
   <script type="text/javascript" src="js/whcookies.js"></script>
+
 
 </head>
 
@@ -46,7 +49,7 @@
       <div class="modal-content text-center">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">MITRA - NAJLEPSZE POSADZKI W 2018</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" data-target="#myModal">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -62,7 +65,8 @@
           </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+          <button id="myModalClose" type="button" class="btn btn-secondary" data-dismiss="modal" data-target="#myModal">Zamknij
+          </button>
         </div>
       </div>
     </div>
