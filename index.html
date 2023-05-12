@@ -10,15 +10,17 @@
     function gtag() {
       dataLayer.push(arguments);
     }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-116559381-1');
+    gtag("js", new Date());
+
+    gtag("config", "UA-116559381-1");
   </script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="keywords" content="Poznań, Mitra, posadzki, anhydrytowe, WaaB, ">
-  <meta name="description" content="Posadzki anhydrytowe Poznań, Termo Floor firmy WaaB, doskonale sprawdzają się na system ogrzewania podłogowego, w porównaniu z posadzkami cementowymi mają lepszą przewodność cieplną oraz ze względu na jednorodną strukturę ograniczają straty ciepła.">
+  <meta name="description"
+        content="Posadzki anhydrytowe Poznań, Termo Floor firmy WaaB, doskonale sprawdzają się na system ogrzewania podłogowego, w porównaniu z posadzkami cementowymi mają lepszą przewodność cieplną oraz ze względu na jednorodną strukturę ograniczają straty ciepła.">
   <meta name="author" content="Paweł Białek">
   <link rel="icon" href="images/mitra-male.png" type="image/x-icon">
 
@@ -43,211 +45,253 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="index.html">
-        <img src="images/mitra-biale-przezro.png" height="70" alt="mitra posadzki">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger active" href="index.html">Strona główna</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="o-firmie.html">O firmie</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="posadzki-anhydrytowe.html">Posadzki anhydrytowe</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="doradzctwo-techniczne.html">Doradztwo techniczne</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="oferta.html">Oferta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="realizacje.html">Realizacje</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="kariera.html">Kariera</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="kontakt.html">Kontakt</a>
-          </li>
-        </ul>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">MITRA - NAJLEPSZE POSADZKI W 2023</h5>
+        <button type="button" class="close" data-dismiss="modal" data-target="#myModal">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+      <div class="modal-body">
+        <div class="oferteo">
 
+        </div>
+        <p>
+          Już kolejny rok, MITRA Posadzki Anhydrytowe zdobyła tytuł najlepsi wśród specjalistów od posadzek w Poznaniu.
+          To dzięki naszym klientom jesteśmy jednym z najlepiej ocenianych profesjonalistów.</p>
+        <p>
+          Dziękujemy!
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button id="myModalClose" type="button" class="btn btn-secondary" data-dismiss="modal" data-target="#myModal">
+          Zamknij
+        </button>
+      </div>
     </div>
-    <a target="_blank" title="follow me on facebook" href="https://www.facebook.com/MITRA-Posadzki-anhydrytowe-2208914829364454/"><img class="logo-fb" alt="follow me on facebook" src="images/logo-fb.png" border="0"></a>
-  </nav>
-  <!-- Button z numerem telefonu -->
-  <!-- <div class="fixed-bottom phoneCall">
-    <img onmouseover="clickPhoneAdd()" onmouseout="clickPhoneRemove()" onclick="window.open('tel:+48-666-610-404');" src="images/phone-icon-green.png"
-      height="70" alt="phone us">
-    <span class="p-3 mb-2 text-white hover">
-      <a href="tel:+48-666-610-404" class="insideLink">Zadzwoń:
-        <br>666 610 404</a>
-    </span>
-  </div> -->
-  <header id="strona-glowna">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('images/betoniara.jpg'); background-position: center 70%">
-          <!-- <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
-          </div> -->
-        </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('images/posadzka-mosi.JPG');">
-          <!-- <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
-          </div> -->
-        </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('images/posadzka-lub.JPG');">
-          <!-- <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
-          </div>
+  </div>
+</div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="index.html">
+      <img src="images/mitra-biale-przezro.png" height="70" alt="mitra posadzki">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger active" href="index.html">Strona główna</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="o-firmie.html">O firmie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="posadzki-anhydrytowe.html">Posadzki anhydrytowe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="doradzctwo-techniczne.html">Doradztwo techniczne</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="oferta.html">Oferta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="realizacje.html">Realizacje</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="kariera.html">Kariera</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <a target="_blank" title="follow me on facebook"
+     href="https://www.facebook.com/MITRA-Posadzki-anhydrytowe-2208914829364454/"><img class="logo-fb"
+                                                                                       alt="follow me on facebook"
+                                                                                       src="images/logo-fb.png"
+                                                                                       border="0"></a>
+</nav>
+<!-- Button z numerem telefonu -->
+<!-- <div class="fixed-bottom phoneCall">
+  <img onmouseover="clickPhoneAdd()" onmouseout="clickPhoneRemove()" onclick="window.open('tel:+48-666-610-404');" src="images/phone-icon-green.png"
+    height="70" alt="phone us">
+  <span class="p-3 mb-2 text-white hover">
+    <a href="tel:+48-666-610-404" class="insideLink">Zadzwoń:
+      <br>666 610 404</a>
+  </span>
+</div> -->
+<header id="strona-glowna">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active"
+           style="background-image: url('images/betoniara.jpg'); background-position: center 70%">
+        <!-- <div class="carousel-caption d-none d-md-block">
+          <h3>First Slide</h3>
+          <p>This is a description for the first slide.</p>
         </div> -->
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-  </header>
-  <section class="bg-dark">
-    <h2 id="naglowek" class="h2 text-center">
-      <strong class="text-white">Posadzki anhydrytowe w Poznaniu oraz na terenie powiatu poznańskiego</strong>
-    </h2>
-  </section>
-  <section id="services" class="bg-light">
-    <div class="container uslugi">
-      <!-- Portfolio Section -->
-      <h2>Nasze usługi</h2>
-      <hr>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <img class="card-img-top" src="images/doradztwo-techniczne.jpg" alt="">
-            <div class="card-body">
-              <h4 class="card-title">
-              </h4>
-              <p class="h5 text-center">
-                <strong>Doradztwo techniczne dla inwestorów i projektantów</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <img class="card-img-top" src="images/pomiary.jpg" alt="">
-            <div class="card-body">
-              <h4 class="card-title">
-              </h4>
-              <p class="h5 text-center">
-                <strong>Pomiary wysokości na budowie</strong> - doradzamy instalatorom jak przygotować podkład pod
-                wylewkę.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <img class="card-img-top" src="images/wykonanie.JPG" style="height: 200px;" alt="">
-            <div class="card-body">
-              <h4 class="card-title">
-              </h4>
-              <p class="h5 text-center">
-                <strong>Wykonanie posadzki anhydrytowej</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('images/posadzka-mosi.JPG');">
+        <!-- <div class="carousel-caption d-none d-md-block">
+          <h3>Second Slide</h3>
+          <p>This is a description for the second slide.</p>
+        </div> -->
       </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('images/posadzka-lub.JPG');">
+        <!-- <div class="carousel-caption d-none d-md-block">
+          <h3>Third Slide</h3>
+          <p>This is a description for the third slide.</p>
+        </div>
+      </div> -->
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    </div>
-    <!-- /.row -->
-
-    </div>
-  </section>
-  <section id="plus" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h3 class="h3 text-center">Proces powstawania posadzki anhydrytowej</h3>
-          <hr class="my-4">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://www.youtube.com/embed/RAHR16J8Ljs" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+  </div>
+</header>
+<section class="bg-dark">
+  <h2 id="naglowek" class="h2 text-center">
+    <strong class="text-white">Posadzki anhydrytowe w Poznaniu oraz na terenie powiatu poznańskiego</strong>
+  </h2>
+</section>
+<section id="services" class="bg-light">
+  <div class="container uslugi">
+    <!-- Portfolio Section -->
+    <h2>Nasze usługi</h2>
+    <hr>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/doradztwo-techniczne.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">
+            </h4>
+            <p class="h5 text-center">
+              <strong>Doradztwo techniczne dla inwestorów i projektantów</strong>
+            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2>Kontakt</h2>
-          <hr class="my-4">
-          <img src="images/mitra-male.png" height="150" alt="logo mitra">
-          <p>Os. Bolesława Chrobrego 20/86</p>
-          <p>60-681 Poznań</p>
-          <p>NIP: 972-113-71-42</p>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/pomiary.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">
+            </h4>
+            <p class="h5 text-center">
+              <strong>Pomiary wysokości na budowie</strong> - doradzamy instalatorom jak przygotować podkład pod
+              wylewkę.</p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <a id="phone" href="tel:+48-666-610-404"><img src="images/phone.png" width="100" height="100" alt="call to mitra"></a>
-          <p> 666-610-404</p>
-          <p> 504-946-580</p>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/wykonanie.JPG" style="height: 200px;" alt="">
+          <div class="card-body">
+            <h4 class="card-title">
+            </h4>
+            <p class="h5 text-center">
+              <strong>Wykonanie posadzki anhydrytowej</strong>
+            </p>
+          </div>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <a href="mailto:biuro@mitraposadzki.pl"><img src="images/mail.png" width="100" height="100" alt="send mail to mitra"></a>
-          <p>
-            <a href="mailto:biuro@mitraposadzki.pl" style="color:black">biuro@mitraposadzki.pl</a>
-          </p>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <!-- /.row -->
+
+  </div>
+</section>
+<section id="plus" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h3 class="h3 text-center">Proces powstawania posadzki anhydrytowej</h3>
+        <hr class="my-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.youtube.com/embed/RAHR16J8Ljs" width="560" height="315"
+                  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+                  allowFullScreen="true"></iframe>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Mitraposadzki 2023</p>
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Kontakt</h2>
+        <hr class="my-4">
+        <img src="images/mitra-male.png" height="150" alt="logo mitra">
+        <p>Os. Bolesława Chrobrego 20/86</p>
+        <p>60-681 Poznań</p>
+        <p>NIP: 972-113-71-42</p>
+      </div>
     </div>
-    <!-- /.container -->
-  </footer>
+    <div class="row">
+      <div class="col-lg-4 ml-auto text-center">
+        <a id="phone" href="tel:+48-666-610-404"><img src="images/phone.png" width="100" height="100"
+                                                      alt="call to mitra"></a>
+        <p> 666-610-404</p>
+        <p> 504-946-580</p>
+      </div>
+      <div class="col-lg-4 mr-auto text-center">
+        <a href="mailto:biuro@mitraposadzki.pl"><img src="images/mail.png" width="100" height="100"
+                                                     alt="send mail to mitra"></a>
+        <p>
+          <a href="mailto:biuro@mitraposadzki.pl" style="color:black">biuro@mitraposadzki.pl</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Mitraposadzki 2023</p>
+  </div>
+  <!-- /.container -->
+</footer>
 
-  <!-- Plugin JavaScript -->
-  <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/jqBootstrapValidation.js"></script>
+<!-- Plugin JavaScript -->
+<!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+
+<!-- Custom JavaScript for this theme -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/modal.js"></script>
 
 </body>
 

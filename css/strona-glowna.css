@@ -10,8 +10,9 @@
 
 .oferteo {
   height: 200px;
-  background-image: url(../images/oferteo.png);
+  background-image: url(../images/oferteo2023.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 0 20px;
 }
